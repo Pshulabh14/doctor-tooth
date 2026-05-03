@@ -79,6 +79,21 @@ nav.scrolled { height:60px;box-shadow:0 4px 30px rgba(26,23,20,0.08); }
 .hero-float-card2 { position:absolute;top:30px;right:-20px;background:var(--orange);border-radius:16px;padding:14px 18px;color:white;box-shadow:0 10px 32px rgba(232,101,10,0.4);animation:float 4s 2s ease-in-out infinite; }
 .hero-float-card2 strong { display:block;font-size:22px;font-weight:700;font-family:'Cormorant Garamond',serif; }
 .hero-float-card2 span { font-size:11px;opacity:0.85;letter-spacing:0.05em; }
+@media (max-width: 900px) {
+  .hero-image-wrap {
+    position: relative;
+  }
+
+  .hero-float-card,
+  .hero-float-card2 {
+    position: relative;
+    margin-top: 10px;
+    left: auto;
+    right: auto;
+    bottom: auto;
+    top: auto;
+  }
+}
 
 /* SECTIONS */
 section { padding:100px 5%; }
